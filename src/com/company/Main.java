@@ -42,7 +42,7 @@ public class Main {
         int count = 0;
         boolean hasWon = false;
         boolean gameShouldFinish = false;
-
+        //With every entry in the "while"- loop, count increases by 1
         while(!gameShouldFinish) {
             count++;
 
@@ -61,7 +61,7 @@ public class Main {
                 gameShouldFinish = true;
             }
         }
-
+        //Prints a final message
         if (hasWon){
             System.out.println("Congrats for the win! You have guessed in your " + count + " guess");
         } else {
